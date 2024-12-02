@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Gro</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"></script>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header class="header outer-container" id="home">
+        <!-- <------------------------ Nav---------------->
+
+        <nav class="navbar inner-content">
+          <div class="navbar-logo">
+            <a href="/" class="logo">
+              <img src="Images/logo.svg" alt="logo" />
+            </a>
+          </div>
+
+          <div class="navbar-wrapper">
+            <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#download">Download</a></li>
+              <li><a href="#reviews">Review</a></li>
+              <li><a href="#aboutUs">About Us</a></li>
+              <li><a href="#faq">Faq</a></li>
+            </ul>
+
+            <div class="hamburger-menu">
+              <button class="btn btn-login">Log In</button>
+              <button class="btn btn-signUp">Sign Up</button>
+            </div>
+          </div>
+
+          <div class="mobile-menu">
+            <div class="menu--line"></div>
+            <div class="menu--line"></div>
+            <div class="menu--line"></div>
+          </div>
+        </nav>
+
+        <!-- <------------------------ Hero---------------->
+        <section class="hero inner-content row">
+          <div class="hero-content feature-card left col-6">
+            <span class="hero-subtitle"> Unlock the Market: </span>
+
+            <h1 class="hero-title">
+              Insights That Empower Your Investment Journey.
+            </h1>
+
+            <ul class="hero-list">
+              <li class="hero-listItem">Zero brokerage fees and Zero taxes.</li>
+              <li class="hero-listItem">Access up to 500x leverage.</li>
+              <li class="hero-listItem">
+                Comprehensive support available 24/7.
+              </li>
+              <li class="hero-listItem">
+                We accept crypto for diposit Or withdraw
+              </li>
+              <li class="hero-listItem">Simple and hassle-free payouts</li>
+            </ul>
+
+            <div class="hero-buttons">
+              <a href="#" class="btn btn-invest">Invest Now</a>
+              <a href="#" class="btn btn-contact">Contact Us</a>
+            </div>
+          </div>
+
+          <div class="hero-image feature-card right col-6">
+            <img
+              src="Images/hero-image.svg"
+              alt="Girl looking at stock charts"
+            />
+          </div>
+        </section>
+      </header>
+
+      <main class="main">
+        <!-- <------------- Features---------------->
+        <section class="features outer-container" id="features">
+          <div class="features-wrapper inner-content">
+            <div class="features-heading">
+              <h2 class="heading">
+                Invest Right, Invest Now With <span>Stock Grow</span>
+              </h2>
+            </div>
+
+            <div class="features-info row">
+              <div class="feature-row">
+                <div class="feature-rowItem feature-card left">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/chart.svg" alt="chart" />
+                  </div>
+                  <span class="feature-rowItem-title"
+                    >Real-Time Market Data</span
+                  >
+                  <p class="feature-rowItem-description">
+                    Instant stock market insights for timely and informed
+                    investments.
+                  </p>
+                </div>
+
+                <div class="feature-rowItem feature-card left">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/user-friendly.svg" alt="user-friendly" />
+                  </div>
+                  <span class="feature-rowItem-title"
+                    >User - Friendly Interface</span
+                  >
+                  <p class="feature-rowItem-description">
+                    User-friendly design that anyone can easily explore and
+                    operate.
+                  </p>
+                </div>
+
+                <div class="feature-rowItem feature-card left">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/tracking.svg" alt="tracking" />
+                  </div>
+                  <span class="feature-rowItem-title">Portfolio Tracking</span>
+                  <p class="feature-rowItem-description">
+                    Stay updated on your investment progress smoothly
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature-row feature-mobile">
+                <img src="Images/mobile.svg" alt="mobile image" />
+              </div>
+
+              <div class="feature-row">
+                <div class="feature-rowItem feature-card right">
+                  <div class="feature-rowItem-image">
+                    <img
+                      src="Images/transaction.svg"
+                      alt="crystal clear transaction"
+                    />
+                  </div>
+                  <span class="feature-rowItem-title"
+                    >Crystal-clear Transactions</span
+                  >
+                  <p class="feature-rowItem-description">
+                    100% guaranteed for your safe & secure transactions.
+                  </p>
+                </div>
+
+                <div class="feature-rowItem feature-card right">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/security.svg" alt="security" />
+                  </div>
+                  <span class="feature-rowItem-title">Top Security</span>
+                  <p class="feature-rowItem-description">
+                    With negative balance protection and secure data encryption.
+                  </p>
+                </div>
+
+                <div class="feature-rowItem feature-card right">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/support.svg" alt="support" />
+                  </div>
+                  <span class="feature-rowItem-title">Customer Support</span>
+                  <p class="feature-rowItem-description">
+                    Our customer service is available 24/7 to help you
+                    whenever you need.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- <----------Different from others ----------->
+        <section class="additional-features outer-container" id="aboutUs">
+          <div class="additional-features-wrapper inner-content">
+            <div class="features-heading">
+              <h2 class="heading">
+                Why Stock Grow <span>Is Different From Others?</span>
+              </h2>
+            </div>
+
+            <div class="features-info">
+              <div class="additional-features-row row">
+                <div class="feature-rowItem">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/charges.svg" alt="charges" />
+                  </div>
+                  <span class="feature-rowItem-title">Charges</span>
+                  <p class="feature-rowItem-description">
+                    All charges are transparent.
+                  </p>
+
+                  <div class="feature-rowItem-cta">
+                    <a href="#" class="btn btn-learnMore">Learn More</a>
+                  </div>
+                </div>
+
+                <div class="feature-rowItem">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/trading.svg" alt="trading" />
+                  </div>
+                  <span class="feature-rowItem-title">Intraday Trading</span>
+                  <p class="feature-rowItem-description">
+                    Our service offers both intraday trading and holding
+                    options.
+                  </p>
+
+                  <div class="feature-rowItem-cta">
+                    <a href="#" class="btn btn-learnMore">Learn More</a>
+                  </div>
+                </div>
+
+                <div class="feature-rowItem">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/highreturn.svg" alt="daily high return" />
+                  </div>
+                  <span class="feature-rowItem-title">Daily High Return</span>
+                  <p class="feature-rowItem-description">
+                    Get profitable calls with expert market analysis support.
+                  </p>
+
+                  <div class="feature-rowItem-cta">
+                    <a href="#" class="btn btn-learnMore">Learn More</a>
+                  </div>
+                </div>
+
+                <div class="feature-rowItem">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/trackrecord.svg" alt="trackrecord" />
+                  </div>
+                  <span class="feature-rowItem-title"
+                    >Established Track Record</span
+                  >
+                  <p class="feature-rowItem-description">
+                    Stock grow has been providing reliable service to traders
+                    since 2009.
+                  </p>
+
+                  <div class="feature-rowItem-cta">
+                    <a href="#" class="btn btn-learnMore">Learn More</a>
+                  </div>
+                </div>
+
+                <div class="feature-rowItem">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/commodities.svg" alt="commodities" />
+                  </div>
+                  <span class="feature-rowItem-title">Commodities</span>
+                  <p class="feature-rowItem-description">
+                    Buy and sell 25+25 lots on the Commodities.
+                  </p>
+
+                  <div class="feature-rowItem-cta">
+                    <a href="#" class="btn btn-learnMore">Learn More</a>
+                  </div>
+                </div>
+
+                <div class="feature-rowItem">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/margin.svg" alt="margin" />
+                  </div>
+                  <span class="feature-rowItem-title">Margin</span>
+                  <p class="feature-rowItem-description">
+                    Leverage up to 500 times the margin limit
+                  </p>
+
+                  <div class="feature-rowItem-cta">
+                    <a href="#" class="btn btn-learnMore">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- <------------ Download------------->
+        <section class="download outer-container" id="download">
+          <div class="download-wrapper inner-content row">
+            <div class="downlaod-info col-6">
+              <span class="download-subtitle">trade with easy</span>
+              <h4 class="downlaod-title">
+                crypto deposits & withdrawals accepted
+              </h4>
+              <div class="download-cta">
+                <button class="btn btn-googlePlay">
+                  <a href="">
+                    <img src="Images/googlePlay.svg" alt="googlePlay" />
+                  </a>
+                </button>
+
+                <button class="btn btn-appStore">
+                  <a href="">
+                    <img src="Images/appStore.svg" alt="app store" />
+                  </a>
+                </button>
+              </div>
+            </div>
+
+            <div class="download-heroImage col-6">
+              <img src="Images/downlaod-hero.svg" alt="guy looking at charts" />
+            </div>
+          </div>
+        </section>
+
+        <!-- <----------Open Account ----------->
+        <section class="openAccount outer-container" id="faq">
+          <div class="openAccount-wrapper inner-content">
+            <div class="features-heading">
+              <h2 class="heading">
+                Easy Steps To Open <span>Your Account</span>
+              </h2>
+            </div>
+
+            <div class="openAccount-details row">
+              <div class="openAccount-details-image">
+                <img src="Images/mobile2.svg" alt="open Account" />
+              </div>
+
+              <div class="openAccount-details-info">
+                <div class="feature-rowItem feature-card right">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/app.svg" alt="app" />
+                  </div>
+                  <span class="feature-rowItem-title">Install the App</span>
+                  <p class="feature-rowItem-description">
+                    Install our app from your preferred app store, or visit our
+                    website service to experience seamless
+                  </p>
+                </div>
+
+                <div class="feature-rowItem feature-card right">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/createAccount.svg" alt="create Account" />
+                  </div>
+                  <span class="feature-rowItem-title">Create Account</span>
+                  <p class="feature-rowItem-description">
+                    Easily create your account by providing necessary
+                    information, allowing you to begin trading, managing your
+                    investments...
+                  </p>
+                </div>
+
+                <div class="feature-rowItem feature-card right">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/networth.svg" alt="networth" />
+                  </div>
+                  <span class="feature-rowItem-title"
+                    >Enjoy Growing Networth</span
+                  >
+                  <p class="feature-rowItem-description">
+                    Enjoy the satisfaction of witnessing your  net worth grow as
+                    you leverage the power of  our app to make smart investment
+                    decisions..
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="openAccount-slider inner-content">
+            <div class="openAccount-slider-wrapper row">
+              <button class="btn prev-icon">
+                <img src="Images/prev-icon.svg" alt="prev" />
+              </button>
+
+              <div class="openAccount-slider-item row">
+                <div class="feature-rowItem sliderItem">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/fullday-support.svg" alt="support" />
+                  </div>
+                  <span class="feature-rowItem-title">24/7 Support</span>
+                  <p class="feature-rowItem-description">
+                    Enjoy 24/7 support for seamless trading, expert guidance,
+                    and reliable investment solutions anytime.
+                  </p>
+                </div>
+
+                <div class="feature-rowItem sliderItem">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/paymentMethod.svg" alt="payment Method" />
+                  </div>
+                  <span class="feature-rowItem-title">Payment Methods</span>
+                  <p class="feature-rowItem-description">
+                    Secure, diverse payment methods for seamless transactions
+                    and hassle-free stock trading.
+                  </p>
+                </div>
+
+                <div class="feature-rowItem sliderItem">
+                  <div class="feature-rowItem-image">
+                    <img src="Images/data-security.svg" alt="data-security" />
+                  </div>
+                  <span class="feature-rowItem-title">Data Security</span>
+                  <p class="feature-rowItem-description">
+                    Ensuring top-tier data security for safe, confidential, and
+                    reliable stock trading transactions.
+                  </p>
+                </div>
+              </div>
+
+              <button class="btn next-icon">
+                <img src="Images/next-icon.svg" alt="next" />
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- <----------Review ----------->
+        <section class="reviews outer-container" id="reviews">
+          <div class="reviews-wrapper inner-content">
+            <div class="features-heading">
+              <h2 class="heading">Users Reviews</h2>
+            </div>
+
+            <div class="reviews-details">
+              <div class="reviews-listItem">
+                <div class="user-info">
+                  <div class="user-info-image">
+                    <img src="Images/user1.svg" alt="user profile" />
+                  </div>
+                  <span class="user-info-name">Vikram nair</span>
+                </div>
+                <div class="user-ratings">
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                </div>
+                <p class="user-review">
+                  I’ve been using the Stock grow Investment App for several
+                  months, and it has completely transformed my investment
+                  experience. The intuitive design makes it easy to track my
+                  portfolio and make informed decisions. I love how accessible
+                  everything is, even for beginners!
+                </p>
+              </div>
+
+              <div class="reviews-listItem">
+                <div class="user-info">
+                  <div class="user-info-image">
+                    <img src="Images/user2.svg" alt="user profile" />
+                  </div>
+                  <span class="user-info-name">Aarav Singh</span>
+                </div>
+                <div class="user-ratings">
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                </div>
+                <p class="user-review">
+                  After trying several investment apps, I settled on Stock grow,
+                  and I couldn’t be happier. Its user-friendly interface
+                  simplifies the investment process, allowing me to manage my
+                  assets effortlessly. The app also provides helpful insights
+                  and real-time updates, making it a must-have for any investor.
+                </p>
+              </div>
+
+              <div class="reviews-listItem">
+                <div class="user-info">
+                  <div class="user-info-image">
+                    <img src="Images/user3.svg" alt="user profile" />
+                  </div>
+                  <span class="user-info-name">Karan Verma</span>
+                </div>
+                <div class="user-ratings">
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                  <img src="Images/Star.svg" alt="star" />
+                </div>
+                <p class="user-review">
+                  The Stock grow Investment App has been a game changer for me.
+                  It’s easy to navigate, and I appreciate the variety of
+                  features it offers. From portfolio analysis to market news,
+                  everything I need is right at my fingertips. Highly recommend
+                  it to anyone looking to streamline their investment strategy!
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- <----------Footer ----------->
+      <footer class="footer outer-container">
+        <div class="footer-wrapper inner-content row">
+          <div class="footer-newsletter">
+            <div class="footer-newsletter-info">
+              <div class="footer-logo">
+                <img src="Images/logo.svg" alt="logo" />
+              </div>
+              <p class="info">
+                Unlock your financial potential with Stock Grow. Gain market
+                insights, make informed trades, and achieve excellence in
+                earnings. Start your journey to financial success today.
+              </p>
+            </div>
+
+            <form class="newsletter-form">
+              <span class="newsletter-form-heading">
+                Sign Up Now and Start Investing
+              </span>
+              <div class="newsletter-form-inputs">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  class="newsletter-form-name"
+                />
+                <input
+                  type="text"
+                  placeholder="Mobile No"
+                  class="newsletter-form-number"
+                />
+              </div>
+              <button class="btn btn-submitForm">Submit</button>
+
+              <p class="newsletter-form-terms">
+                By signing up, you agree to receive transaction updates on
+                Whatsapp. You may also receive a call from an Stockgrow
+                representative to help you open the account.
+              </p>
+            </form>
+          </div>
+
+          <div class="footer-menu">
+            <div class="footer-menu-wrapper">
+              <h4 class="footer-menu-heading">Menu</h4>
+              <ul class="footer-menu-list">
+                <li class="footer-menu-listItem">
+                  <a href="#home">Home</a>
+                </li>
+                <li class="footer-menu-listItem">
+                  <a href="#aboutUs">About Us</a>
+                </li>
+                <li class="footer-menu-listItem">
+                  <a href="#features">Features</a>
+                </li>
+                <li class="footer-menu-listItem">
+                  <a href="#reviews">Reviews</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-social">
+              <h4 class="footer-social-heading">Follow Us:</h4>
+              <ul class="footer-social-list">
+                <li class="footer-social-listItem">
+                  <a href="#">
+                    <img src="Images/facebook.svg" alt="facebook" />
+                  </a>
+                </li>
+                <li class="footer-social-listItem">
+                  <a href="#">
+                    <img src="Images/linkedin.svg" alt="twitter" />
+                  </a>
+                </li>
+                <li class="footer-social-listItem">
+                  <a href="#">
+                    <img src="Images/twitter.svg" alt="twitter" />
+                  </a>
+                </li>
+                <li class="footer-social-listItem">
+                  <a href="#">
+                    <img src="Images/youtube.svg" alt="instagram" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-quickLinks">
+            <h4 class="footer-quickLinks-heading">Quick Links</h4>
+            <ul class="footer-contact-list">
+              <li class="footer-contact-listItem">
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li class="footer-contact-listItem">
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright outer-container">
+          <p class="copyright-text">© 2024 stock grow . All Rights Reserved</p>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
